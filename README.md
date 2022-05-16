@@ -70,6 +70,7 @@ ref : https://github.com/tesseract-ocr/tesseract
 
 3) `python3 detect_number.py path_to_detected_numberplates`
 
+### Prediction in action
 
 Detected number plate :
 
