@@ -58,17 +58,34 @@ Googles tesseract is used for extracting values from numberplate. Tesseract is a
 ref : https://github.com/tesseract-ocr/tesseract
 
 ## Predictions
+
+### to make prediction run below codes
+
+
+1) `Download yolov5 model from drive( https://drive.google.com/file/d/1NoemFWlmVYUmLLDWeIyY5Af_MpoIEgY1/view?usp=sharing ) to the pulled directory `
+
+2) `Unzip yolo5.zip to get trained models`
+
+3) `python3 yolov5/train.py --img 640 --batch 16 --epochs 300 --data yolov5/data.yaml --weights yolov5s.pt`
+
+3) `python3 detect_number.py path_to_detected_numberplates`
+
+
 Detected number plate :
 
 ![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/main/images/car10_full.jpg)   ![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/main/images/car0_full.jpg)
 
 
-Extracted number plate:
+Croped number plate:
+
 ![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/main/images/car10.jpg) 
+
 ![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/main/images/car0.jpg) 
 
-Number:
+Extracted number:
+
 ![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/main/images/detect1.png) 
+
 ![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/main/images/detect2.png) 
 
 ## End Notes
