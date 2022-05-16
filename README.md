@@ -15,7 +15,7 @@ Recognizing Car License Plate is a very important task for a camera surveillance
 Number plate detector helps to identify numberplates of each vehicle and decode it's number.
 We can extract the license plate from an image using some computer vision techniques and then we can use Optical Character Recognition to recognize the license number.
 
-## Overview of Movie search engine
+## Overview 
 - Datasets and Data-Loading
 - Image Preprocessing
 - Model creation
@@ -49,19 +49,24 @@ We are using YOLOV5 for numberplate detection. YOLOv5 rocket is a family of obje
 Since our dataset is relatively small (~250 images), transfer learning is expected to produce better results than training from scratch. 
 ref: https://github.com/ultralytics/yolov5
 
+
+
 #### 1)Extracting text from the detected Number Plate:
 Googles tesseract is used for extracting values from numberplate. Tesseract is an open source optical character recognition (OCR) platform. OCR extracts text from images and documents without a text layer and outputs the document into a new searchable text file, PDF, or most other popular formats.
 
 ref : https://github.com/tesseract-ocr/tesseract
 
-![alt text](https://raw.githubusercontent.com/vivekalex61/insightsearch/master/test/overall_sentiments.png)
-![alt text](https://raw.githubusercontent.com/vivekalex61/insightsearch/master/test/overall_sentiments.png)
-![alt text](https://raw.githubusercontent.com/vivekalex61/insightsearch/master/test/overall_sentiments.png)
-
 ## Predictions
-![alt text](https://raw.githubusercontent.com/vivekalex61/insightsearch/master/test/overall_sentiments.png)
-![alt text](https://raw.githubusercontent.com/vivekalex61/insightsearch/master/test/overall_sentiments.png)
+Detected number plate :
 
+![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/blob/main/images/car10_full.jpg)   ![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/blob/main/images/car0_full.jpg)
+
+
+Extracted number plate:
+![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/blob/main/images/car0%20_full.jpg) 
+
+Number:
+![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/blob/main/images/car0%20_full.jpg) 
 
 ## End Notes
 
