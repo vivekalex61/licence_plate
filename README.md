@@ -31,6 +31,7 @@ The aim of pre-processing is an improvement of the image data that suppresses un
  For yolov5 we just scaled each image into 640*480 
 
 Ref : https://www.mygreatlearning.com/blog/introduction-to-image-pre-processing/
+ 
 
 ### image Annotation
 Most annotation platforms support export at YOLO labeling format, providing one annotations text file per image. Each text file contains one bounding-box (BBox) annotation for each of the objects in the image. The annotations are normalized to the image size, and lie within the range of 0 to 1. They are represented in the following format:
@@ -63,10 +64,12 @@ Detected number plate :
 
 
 Extracted number plate:
-![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/blob/main/images/car0%20_full.jpg) 
+![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/main/images/car10.jpg) 
+![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/main/images/car0.jpg) 
 
 Number:
-![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/blob/main/images/car0%20_full.jpg) 
+![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/main/images/detect1.jpg) 
+![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/main/images/detect2.jpg) 
 
 ## End Notes
 
