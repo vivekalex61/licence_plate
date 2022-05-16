@@ -59,7 +59,7 @@ ref : https://github.com/tesseract-ocr/tesseract
 ## Predictions
 Detected number plate :
 
-![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/blob/main/images/car10_full.jpg)   ![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/blob/main/images/car0_full.jpg)
+![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/main/images/car10_full.jpg)   ![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/main/images/car0_full.jpg)
 
 
 Extracted number plate:
