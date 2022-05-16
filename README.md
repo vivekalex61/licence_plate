@@ -68,8 +68,8 @@ Extracted number plate:
 ![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/main/images/car0.jpg) 
 
 Number:
-![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/main/images/detect1.jpg) 
-![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/main/images/detect2.jpg) 
+![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/main/images/detect1.png) 
+![alt text](https://raw.githubusercontent.com/vivekalex61/licence_plate/main/images/detect2.png) 
 
 ## End Notes
 
